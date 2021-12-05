@@ -359,62 +359,70 @@
         margin-right: 26px;
     }
     #footer {
-        display: block;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         width: 100vw;
         height: 18vh;
-        background-color: #3F70CB;
-    
-    }
-    
-    #footer .menuFooter{
-        display: block;
-        width: 100vw;
-        height: 12vh;
-        background-color: #BA181B;
-    }
-    
-    #footer .menuFooter .navFooter{
-        display: inline-block;
-        width: 580px;
-        height: 80px;
-        position: relative;
-        margin-top: 5px;
-        margin-left: 360px;
-        margin-right: 0px;
-        list-style-type: none;
-    }
-    
-    #footer .menuFooter .navFooter li{
-        display: block;
-        margin-top: 2px;
-    }
-    
-    #footer .menuFooter .navFooter li a{
-        color: black;
-        text-decoration: none;
-        font-size: 20px;
+        background-color: #51D3C5;
         
     }
-    #footer .menuFooter .socialMedia{
-        display: inline-block;
-        width: 580px;
-        height: 80px;
-        position: relative;
-        margin-right: 360px;
-        left: auto;
-        top: 0px;
-        list-style-type: none;
-        text-align: right;
-    }
     
-    #footer .menuFooter .socialMedia li{
-        display: block;
-        margin-top: 2px;
+    #footer .mensajeDeContacto{
+        align-self: center;
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        font-size: 1.25rem;
+        color: #0D3E98;
     }
-    
-    #footer .menuFooter .socialMedia li img{
-        width: 20px;
-        height: 20px;
+
+    #footer .mensajeDeContacto a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #footer .mailContacto{
+        align-self: center;
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        font-size: 1rem;
+        color: #0D3E98;
+    }
+
+    #footer .socialMedia{
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        min-height: 20px;
+        text-align: center;
+    }
+
+    #footer .socialMedia .logoSocial{
+        margin-left: 2vw;
+        margin-right: 2vw;
+        width: 4vw;
+        min-width: 5px;
+        height: 4vw;
+        min-height: 5px;
+        
+    }
+
+    #footer .socialMedia .logoSocial a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #footer .socialMedia .logoSocial a img{
+        width: 4vw;
+        min-width: 5px;
+        height: 4vw;
+        min-height: 5px;
         object-fit: cover;
     }
 }
@@ -773,61 +781,69 @@
     }
     #footer {
         align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         width: 100vw;
         height: 18vh;
-        background-color: #0b090a;
-    
-    }
-    
-    #footer .menuFooter{
-        display: block;
-        width: 100vw;
-        height: 12vh;
-        background-color: #BA181B;
-    }
-    
-    #footer .menuFooter .navFooter{
-        display: inline-block;
-        width: 580px;
-        height: 80px;
-        position: relative;
-        margin-top: 5px;
-        margin-left: 360px;
-        margin-right: 0px;
-        list-style-type: none;
-    }
-    
-    #footer .menuFooter .navFooter li{
-        display: block;
-        margin-top: 2px;
-    }
-    
-    #footer .menuFooter .navFooter li a{
-        color: black;
-        text-decoration: none;
-        font-size: 20px;
+        background-color: #51D3C5;
         
     }
-    #footer .menuFooter .socialMedia{
-        display: inline-block;
-        width: 580px;
-        height: 80px;
-        position: relative;
-        margin-right: 360px;
-        left: auto;
-        top: 0px;
-        list-style-type: none;
-        text-align: right;
-    }
     
-    #footer .menuFooter .socialMedia li{
-        display: block;
-        margin-top: 2px;
+    #footer .mensajeDeContacto{
+        align-self: center;
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        font-size: 1.25rem;
+        color: #0D3E98;
     }
-    
-    #footer .menuFooter .socialMedia li img{
-        width: 20px;
-        height: 20px;
+
+    #footer .mensajeDeContacto a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #footer .mailContacto{
+        align-self: center;
+        width: 100vw;
+        height: auto;
+        text-align: center;
+        font-size: 1rem;
+        color: #0D3E98;
+    }
+
+    #footer .socialMedia{
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        min-height: 20px;
+        text-align: center;
+    }
+
+    #footer .socialMedia .logoSocial{
+        margin-left: 2vw;
+        margin-right: 2vw;
+        width: 4vw;
+        min-width: 5px;
+        height: 4vw;
+        min-height: 5px;
+        
+    }
+
+    #footer .socialMedia .logoSocial a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #footer .socialMedia .logoSocial a img{
+        width: 4vw;
+        min-width: 5px;
+        height: 4vw;
+        min-height: 5px;
         object-fit: cover;
     }
 }
