@@ -329,17 +329,18 @@
     #main .photoReel .imagenPhotoReel {
         align-self: center;
         width: auto;
-        min-width: 250px;
+        min-width: 175px;
         height: auto;
-        min-height: 250px;
+        min-height: 175px;
         box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.3);
         border-radius: 15px;
+        margin: 10px;
     }
     #main .photoReel .imagenPhotoReel img{
         width: 85vw;
-        min-width: 250px;
+        min-width: 175px;
         height: 85vw;
-        min-height: 250px;
+        min-height: 175px;
         object-fit: cover;
         border-radius: 15px;       
     }
@@ -753,9 +754,9 @@
     #main .photoReel .imagenPhotoReel {
         align-self: center;
         width: auto;
-        min-width: 250px;
+        min-width: 200px;
         height: auto;
-        min-height: 250px;
+        min-height: 200px;
         box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.3);
         border-radius: 15px;
     }
@@ -768,9 +769,9 @@
     #main .photoReel .imagenPhotoReel a img{
         align-self: center;
         width: 20vw;
-        min-width: 250px;
+        min-width: 200px;
         height: 20vw;
-        min-height: 250px;
+        min-height: 200px;
         object-fit:fill ;
         border-radius: 15px;  
     }
@@ -785,7 +786,8 @@
         flex-direction: column;
         justify-content: space-around;
         width: 100vw;
-        height: 18vh;
+        height: auto;
+        min-height: 10vh;
         background-color: #51D3C5;
         
     }
@@ -795,7 +797,7 @@
         width: 100vw;
         height: auto;
         text-align: center;
-        font-size: 1.25rem;
+        font-size: 1.75rem;
         color: #0D3E98;
     }
 
@@ -809,7 +811,7 @@
         width: 100vw;
         height: auto;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: #0D3E98;
     }
 
