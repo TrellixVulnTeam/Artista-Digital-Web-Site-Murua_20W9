@@ -1,0 +1,387 @@
+* {
+    margin : 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: #d3d3d3;
+}
+#header {
+    width: 100vw;
+    height: 10vh;
+}
+
+#header .logoSection {
+    display: block;
+    width: 100vw;
+    height: 60%;
+    background-color: #B1A7A6;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif
+}
+
+#header .logoSection .logo{
+    display: block;
+    width: 240px;
+    height: 60px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:#0b090a;
+    text-align: center;
+    top: 25%;
+}
+#header .nav {
+    display: block;
+    width: 100vw;
+    height: 40%;
+    background-color: #BA181B;
+}
+
+#header .nav{
+    list-style-type: none;
+}
+
+#header .nav ul{
+    width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    text-align: center;
+    top: 25%;
+}
+#header .nav li{
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+#header .nav li a {
+    color: black;
+    text-decoration: none;
+}
+#main {
+    display: block;
+    width: 100vw;
+    height: auto;
+}
+
+.mainImage {
+    display: block;
+    position: relative;
+    width: 1200px;
+    height: 675px;
+    background-image: url("../assets/imagenes/principal-imagen.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.tituloPrincipal {
+    font-family: 'Montserrat' 'Trebuchet MS', sans-serif;
+    color: #0b090a;
+}
+
+#main .mainImage{
+margin-left: auto;
+margin-right: auto;
+margin-top: 3vh;
+}
+
+#main .mainImage .tituloPrincipal{
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+#main .biography{
+    display: block;
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main .biography .imagenPersonal{
+    display: inline-block;
+    position: relative;
+    width: 580px;
+    height: 580px;
+    margin-right: 20px;
+    background-image: url("../assets/imagenes/bio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main .biography .biographyParagraph{
+    display: inline-block;
+    position: relative;
+    bottom: 400px;
+    width: 580px;
+    height: 580px;
+
+}
+
+#main .galeria{
+    display: block;
+    width: 90vw;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+
+}
+
+#main .galeria .imagenPersonal{
+    display: inline-block;
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-image: url("../assets/imagenes/bio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main .galeria .imagenesSecundarias{
+    display: inline-block;
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-image: url("../assets/imagenes/galeria.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main .comisiones{
+    display: block;
+    width: 1200px;
+    height: auto;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    list-style-type: none;
+}
+
+#main .comisiones li{
+    display: block;
+    margin-top: 20px;
+}
+
+#main .comisiones li .imagenDescriptiva{
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#main .comisiones li .imagenDescriptiva img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
+#main .comisiones li .biographyParagraph{
+    display: inline-block;
+    position: relative;
+    bottom: 310px;
+    width: 600px;
+    height: 450px;
+
+}
+
+#main .contactMe{
+    display: block;
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#main .contactMe form{
+    display: inline-block;
+    position: relative;
+    width: 1200px;
+    margin-left: 0px;
+}
+
+#main .contactMe form fieldset{
+
+    display: inline-block;
+    width: 100%;
+    left: 360px;
+    margin-left: 0px;
+}
+
+#newsSubscription{
+   font: 'Monserrat', sans-serif;
+}
+
+#main .newsSubscription {
+    display: block;
+    width: 1200px;
+    height: 106px;
+    background-color: #BA181B;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3vh;
+
+}
+
+.subscriptionMessage{
+    color: #0b090a;
+    font-family: 'Elan Black', sans-serif;
+    font-size: 25px;
+}
+
+#main .newsSubscription{
+    list-style-type: none;
+}
+
+#main .newsSubscription li{
+    display: inline-block;
+}
+
+#main .newsSubscription li .subscriptionMessage{
+    display: inline-block;
+    width: 480px;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+    position: static;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+
+#main .newsSubscription li .formSubscription{
+    display: inline-block;
+    width: 480px;
+    height: 106px;
+    position: static;
+    text-align: center;
+    
+
+}
+
+#main .photoReel{
+    display: block;
+    width: 1200px;
+    height: 388px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+
+}
+
+#main .imagenPhotoReel {
+    display: inline-block;
+    width: 380px;
+    height: 380px;
+    
+}
+#main .photoReel .imagenPhotoReel img{
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+}
+
+#main .photoReel{
+    list-style-type: none;
+}
+
+#main .photoReel li{
+    display: inline-block;
+    /*margin-right: 15px;*/
+   /* margin-left: 10px;*/
+}
+
+#main .photoReel li a{
+    color: black;
+    text-decoration: none;
+}
+
+#imagen-central{
+    margin-left: 26px;
+    margin-right: 26px;
+}
+#footer {
+    display: block;
+    width: 100vw;
+    height: 18vh;
+    background-color: #0b090a;
+
+}
+
+#footer .menuFooter{
+    display: block;
+    width: 100vw;
+    height: 12vh;
+    background-color: #BA181B;
+}
+
+#footer .menuFooter .navFooter{
+    display: inline-block;
+    width: 580px;
+    height: 80px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 360px;
+    margin-right: 0px;
+    list-style-type: none;
+}
+
+#footer .menuFooter .navFooter li{
+    display: block;
+    margin-top: 2px;
+}
+
+#footer .menuFooter .navFooter li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+#footer .menuFooter .socialMedia{
+    display: inline-block;
+    width: 580px;
+    height: 80px;
+    position: relative;
+    margin-right: 360px;
+    left: auto;
+    top: 0px;
+    list-style-type: none;
+    text-align: right;
+}
+
+#footer .menuFooter .socialMedia li{
+    display: block;
+    margin-top: 2px;
+}
+
+#footer .menuFooter .socialMedia li img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
