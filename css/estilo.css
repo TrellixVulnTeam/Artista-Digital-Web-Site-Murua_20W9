@@ -24,8 +24,13 @@
     
     #header .logoSection {
         align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100vw;
-        height: 7vh;
+        height: auto;
+        min-height: 7vh;
         background-color: #cbf3f0;
     }
     /*
@@ -35,19 +40,17 @@
     */
     #header .logoSection .logo{
         align-self: center;
-        width: 240px;
-        height: 60px;
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
+        width: 65vw;
+        height: auto;
         font-family: 'Roboto', sans-serif;
-        font-size: 20px;
+        font-size: 1.25rem;
         color:#0b090a;
         text-align: center;
-        top: 25%;
+        padding-top: 0.5vh;
     }
 
     #header .logoSection .logo a{
+        
         text-decoration: none;
         color: black;
     }
@@ -82,52 +85,57 @@
     }
 
     /*main section*/
-    
+
     #main {
-        display: block;
+        display: flex;
         width: 100vw;
         height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
-    .mainImage {
-        display: block;
-        position: relative;
-        width: 1200px;
-        height: 675px;
+    #main .mainImage {
+        /*position: relative;*/
+        align-self: center;
+        width: 100%;
+        height: auto;
+        min-height: 250px;
         background-image: url("../assets/imagenes/principal-imagen.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        border
+        margin-top: 0.5vh;
     
     }
-    
+    /*
     .tituloPrincipal {
         font-family: 'Montserrat' 'Trebuchet MS', sans-serif;
         color: #0b090a;
     }
-    
+    */
+    /*
     #main .mainImage{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3vh;
     }
-    
+    */
+
     #main .mainImage .tituloPrincipal{
-        font-size: 70px;
+        align-self: center;
+        font-family: 'Montserrat' 'Trebuchet MS', sans-serif;
+        color: #0b090a;
+        font-size: 1.25rem;
         text-align: center;
-        position: relative;
-        top: 50%;
+        
     }
     
     #main .biography{
-        display: block;
-        width: 1200px;
-        height: 600px;
-        position: relative;
-        margin-top: 3vh;
-        margin-left: auto;
-        margin-right: auto;
+        align-self: center;
+        width: 80vw;
+        height: auto;
+        margin-top: 2vh;
     }
     
     #main .biography .imagenPersonal{
@@ -254,55 +262,48 @@
         margin-left: 0px;
     }
     
+    /*
     #newsSubscription{
        font: 'Monserrat', sans-serif;
-    }
+    }*/
     
     #main .newsSubscription {
-        display: block;
-        width: 1200px;
-        height: 106px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        min-height: 20px;
+        font: 'Monserrat', sans-serif;
         background-color: #BA181B;
-        margin-right: auto;
-        margin-left: auto;
         margin-top: 3vh;
+        list-style-type: none;
     
     }
     
-    .subscriptionMessage{
+    #main .newsSubscription .subscriptionMessage{
+        
+        width: 80vw;
+        height: auto;
+        align-self: center;
         color: #0b090a;
         font-family: 'Elan Black', sans-serif;
-        font-size: 25px;
+        font-size: 1rem;
     }
-    
+    /*
     #main .newsSubscription{
         list-style-type: none;
     }
-    
-    #main .newsSubscription li{
-        display: inline-block;
-    }
-    
-    #main .newsSubscription li .subscriptionMessage{
-        display: inline-block;
-        width: 480px;
-        height: 106px;
-        left: 0px;
-        top: 0px;
-        position: static;
-        text-align: center;
-        margin-right: 20px;
+    */
         
-    }
-    
-    #main .newsSubscription li .formSubscription{
-        display: inline-block;
-        width: 480px;
-        height: 106px;
-        position: static;
+    #main .newsSubscription .formSubscription{
+        align-self: center;
+        width: 80vw;
+        height: auto;
+        min-height: 20px;
         text-align: center;
-        
-    
+           
     }
     
     #main .photoReel{
@@ -409,47 +410,61 @@
 
 /*Tablet*/
 
-@media (min-width:770px){
+@media (min-width:441px){
     body{
-        background-color: #d3d3d3;
+        background-color: #ffffff;
     }
     #header {
         width: 100vw;
-        height: 10vh;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
+
+    /*header logo section*/
     
     #header .logoSection {
-        display: block;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100vw;
-        height: 60%;
-        background-color: #B1A7A6;
+        height: auto;
+        min-height: 7vh;
+        background-color: #cbf3f0;
     }
-    
+    /*
     .logo{
         font-family: 'Montserrat', sans-serif
     }
-    
+    */
     #header .logoSection .logo{
-        display: block;
-        width: 240px;
-        height: 60px;
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
+        align-self: center;
+        width: 65vw;
+        height: auto;
         font-family: 'Roboto', sans-serif;
-        font-size: 20px;
+        font-size: 1.25rem;
         color:#0b090a;
         text-align: center;
-        top: 25%;
+        padding-top: 0.5vh;
     }
+
+    #header .logoSection .logo a{
+        
+        text-decoration: none;
+        color: black;
+    }
+
+    /*header nav section*/
+
     #header .nav {
-        display: block;
+        display: inline-block;
         width: 100vw;
-        height: 40%;
-        background-color: #BA181B;
-    }
-    
-    #header .nav{
+        height: 5vh;
+        background-color: #cbf3f0;
         list-style-type: none;
     }
     
@@ -463,58 +478,68 @@
     }
     #header .nav li{
         display: inline-block;
-        margin-right: 5vw;
+        margin-right: 2.5vw;
+        font-size: 0.55rem;
     }
     
     #header .nav li a {
         color: black;
         text-decoration: none;
     }
+
+    /*main section*/
+
     #main {
-        display: block;
+        display: flex;
         width: 100vw;
         height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
-    .mainImage {
-        display: block;
-        position: relative;
-        width: 1200px;
-        height: 675px;
+    #main .mainImage {
+        /*position: relative;*/
+        align-self: center;
+        width: 100%;
+        height: auto;
+        min-height: 250px;
         background-image: url("../assets/imagenes/principal-imagen.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        border
+        margin-top: 0.5vh;
     
     }
-    
+    /*
     .tituloPrincipal {
         font-family: 'Montserrat' 'Trebuchet MS', sans-serif;
         color: #0b090a;
     }
-    
+    */
+    /*
     #main .mainImage{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3vh;
     }
-    
+    */
+
+    /*main mainImage titulo principal section*/
     #main .mainImage .tituloPrincipal{
-        font-size: 70px;
+        align-self: center;
+        font-family: 'Montserrat' 'Trebuchet MS', sans-serif;
+        color: #0b090a;
+        font-size: 1.25rem;
         text-align: center;
-        position: relative;
-        top: 50%;
+        
     }
     
     #main .biography{
-        display: block;
-        width: 1200px;
-        height: 600px;
-        position: relative;
-        margin-top: 3vh;
-        margin-left: auto;
-        margin-right: auto;
+        align-self: center;
+        width: 80vw;
+        height: auto;
+        margin-top: 2vh;
     }
     
     #main .biography .imagenPersonal{
@@ -640,15 +665,16 @@
         left: 360px;
         margin-left: 0px;
     }
-    
+    /*
     #newsSubscription{
        font: 'Monserrat', sans-serif;
-    }
+    }*/
     
     #main .newsSubscription {
-        display: block;
-        width: 1200px;
-        height: 106px;
+        width: 80vw;
+        height: auto;
+        min-height: 25px;
+        font: 'Monserrat', sans-serif;
         background-color: #BA181B;
         margin-right: auto;
         margin-left: auto;
