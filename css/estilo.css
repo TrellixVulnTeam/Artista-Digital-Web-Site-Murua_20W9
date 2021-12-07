@@ -980,6 +980,19 @@
         text-decoration: none;
     }
 
+    #header .nav li a:hover {
+        animation-name: nav-color;
+        animation-duration: 500ms;
+        /* Only change code below this line */
+        animation-fill-mode: forwards;
+        /* Only change code above this line */
+      }
+      @keyframes nav-color {
+        100% {
+          color: #0D3E98;
+        }
+      }
+
     /*main section*/
 
     #main {
