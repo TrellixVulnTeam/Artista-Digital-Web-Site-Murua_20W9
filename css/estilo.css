@@ -1,7 +1,7 @@
 * {
     margin : 0px;
     padding: 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Montecarlo, 'sans-serif;
 }
 
 
@@ -1055,7 +1055,7 @@
         width: 100vw;
         height: auto;
         min-height: 200px;
-        background-color: #0D3E98;
+        background-color: #80E4D9;
         padding-top: 30px;
         padding-bottom: 30px;
     }
@@ -1064,16 +1064,33 @@
         height: auto;
         align-self: left;
         font-family: 'Montserrat' 'Roboto', sans-serif;
-        color: white;
+        color: #0D3E98;
         font-size: 2rem;
         text-align: left;
         margin-left: 10vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     #main .mensajePrincipal .mensaje a{
-        text-decoration: none;
-        color: 80E4D9;
+        font-size: 2.75rem;
+        text-decoration:underline ;
+        color: white;
     }
+
+    #main .mensajePrincipal .mensaje a:hover {
+        animation-name: mensaje-color;
+        animation-duration: 500ms;
+        /* Only change code below this line */
+        animation-fill-mode: forwards;
+        /* Only change code above this line */
+      }
+      @keyframes mensaje-color {
+        100% {
+          color: #0D3E98;
+        }
+      }
+
 
     #main .biography{
         align-self: center;
@@ -1218,21 +1235,21 @@
         justify-content: center;
         width: 100vw;
         height: auto;
-        min-height: 20px;
-        background-color: #2ec4b6;
-        margin-top: 1vh;
-          
+        min-height: 125px;
+        background-color: #1E57BE;
+        margin: 0px;      
     }
     
     #main .newsSubscription .subscriptionMessage{
-        
-        width: 80vw;
+        width: auto;
+        max-width: 80vw;
         height: auto;
+        min-height: 30px;
         align-self: center;
         text-align: center;
         color: #0b090a;
-        font-size: 1.35rem;
-        
+        font-size: 1.75rem;
+        font-family: 'Montserrat', sans-serif;
     }
     /*
     #main .newsSubscription{
@@ -1243,7 +1260,9 @@
     #main .newsSubscription .formSubscription{
 
         align-self: center;
-        width: 80vw;
+        max-width: 80vw;
+        width: auto;
+        min-width: 360px;
         height: auto;
         min-height: 20px;
         text-align: center;
@@ -1306,7 +1325,7 @@
         width: 100vw;
         height: auto;
         min-height: 10vh;
-        background-color: #51D3C5;
+        background-color: #80E4D9;
         padding-top: 30px;
         padding-bottom: 30px;
     }
