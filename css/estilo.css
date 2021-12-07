@@ -1,7 +1,7 @@
 * {
     margin : 0px;
     padding: 0px;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -1037,15 +1037,15 @@
 
     /*main mainImage titulo principal section*/
     #main .mainImage .tituloPrincipal{
+        text-decoration: none;
         align-self: center;
-        font-family: 'Montserrat' 'Trebuchet MS', sans-serif;
+        font-family: 'Montserrat' 'Roboto', sans-serif;
         color: #0b090a;
         font-size: 3rem;
         text-align: center;
         
     }
     
-
     #main .mensajePrincipal{
         
         align-self: center;
@@ -1054,23 +1054,25 @@
         justify-content: center;
         width: 100vw;
         height: auto;
-        min-height: 100px;
-        font-family: 'Montserrat' 'Trebuchet MS', sans-serif;
-        color: #0b090a;
-        font-size: 2rem;
-        text-align: center;
+        min-height: 200px;
         background-color: #0D3E98;
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    #main .mensajePrincipal p {
-        
-        align-self: center;
+    #main .mensajePrincipal .mensaje {
+        width: 50vw;
+        height: auto;
+        align-self: left;
+        font-family: 'Montserrat' 'Roboto', sans-serif;
+        color: white;
+        font-size: 2rem;
+        text-align: left;
+        margin-left: 10vw;
     }
 
-    #main .mensajePrincipal p a{
+    #main .mensajePrincipal .mensaje a{
         text-decoration: none;
-        color: black;
+        color: 80E4D9;
     }
 
     #main .biography{
@@ -1217,7 +1219,6 @@
         width: 100vw;
         height: auto;
         min-height: 20px;
-        font: 'Monserrat', sans-serif;
         background-color: #2ec4b6;
         margin-top: 1vh;
           
@@ -1230,9 +1231,8 @@
         align-self: center;
         text-align: center;
         color: #0b090a;
-        font-family: 'Elan Black', sans-serif;
         font-size: 1.35rem;
-        margin-top: 1vh;
+        
     }
     /*
     #main .newsSubscription{
