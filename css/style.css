@@ -5,24 +5,46 @@
     list-style-type: none;
 }
 
+nav .navbar-brand{
+    font-family: 'Montecarlo', sans-serif;
+    font-size: 1.5rem;
+}
+
 #jumbotron-principal{
     font-family: 'Montserrat';
-    font-weight: 800;
-    font-size: 3rem;
+
     background-color: white;
-    height: 80vh;
+    height: 100vh;
     min-height: 200px;
+}
+
+#jumbotron-principal h1{
+    font-weight: 600;
+    
+}
+
+#jumbotron-principal p{
+    font-weight: 400;  
 }
 
 p .lead{
     font-family: 'Montecarlo';
 }
 .aboutMeSection {
-    background-color: white;
+    background-image:  linear-gradient(to right, #8e2de2, #4a00e0);
     height: 60vh;
     min-height: 200px;
 }
 
 .newsLetterSection{
     padding-top: 40px;
+}
+
+.aboutMeSection a{
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);;
 }
