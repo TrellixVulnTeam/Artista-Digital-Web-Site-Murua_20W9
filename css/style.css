@@ -5,8 +5,20 @@
     list-style-type: none;
 }
 
-.jumbotron{
+#jumbotron-principal{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 3rem;
+    background-color: white;
+    height: 80vh;
+    min-height: 200px;
+}
+
+p .lead{
+    font-family: 'Montecarlo';
+}
+.aboutMeSection {
     background-color: white;
     height: 60vh;
-    min-height: 800px;
+    min-height: 200px;
 }
