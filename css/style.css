@@ -5,9 +5,11 @@
     list-style-type: none;
 }
 
+
 nav .navbar-brand{
     font-family: 'Montecarlo', sans-serif;
     font-size: 1.5rem;
+    padding-left: 20px;
 }
 
 #jumbotron-principal{
