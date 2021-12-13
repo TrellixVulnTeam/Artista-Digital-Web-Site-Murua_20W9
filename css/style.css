@@ -22,3 +22,7 @@ p .lead{
     height: 60vh;
     min-height: 200px;
 }
+
+.newsLetterSection{
+    padding-top: 40px;
+}
