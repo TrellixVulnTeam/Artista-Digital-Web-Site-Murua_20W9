@@ -69,10 +69,11 @@ footer{
     height: auto;
     min-width: 350px;
     min-height: 350px;
-    background-image: url(../assets/images/blender.png);
-    background-size: contain;
+    background-image: url(../assets/images/myself.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 20px;
 }
 
 .formularioContacto{
@@ -121,9 +122,9 @@ footer{
 .comissionsSection .seccionPorComision{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 75%;
+    width: 80%;
     height: auto;
     min-height: 350px;
     margin: 4vh;
