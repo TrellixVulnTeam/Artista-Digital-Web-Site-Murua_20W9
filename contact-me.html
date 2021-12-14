@@ -33,7 +33,7 @@
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about-me.html">Acerca de mi</a>
+                    <a class="nav-link">Acerca de mi</a>
                   </li>
                 <li class="nav-item">
                   <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -42,30 +42,32 @@
                   <a class="nav-link" href="comissions.html">Comisiones</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact-me.html">Contactame</a>
+                  <a class="nav-link active" aria-current="page" href="about-me.html">Contactame</a>
                 </li>
               </ul>
             </div>
           </nav>
 
         <!-- Sección de About-me-->
-
-        <div class ="biogPic container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col">
-                    <p class="lead wow animate__animated animate__fadeInLeft" data-wow-delay="1.2s">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque ratione perspiciatis aspernatur doloremque, tempore eos suscipit est? Illo omnis inventore, nostrum temporibus nesciunt suscipit vero ipsam deserunt consequuntur fuga.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet rerum modi consectetur aspernatur ad culpa eos iusto cupiditate at, aut dicta! Deserunt perspiciatis at corrupti ratione ut quas, necessitatibus rerum.
-                    </p>
-                    
+        <div class="formularioContacto">
+            <h3>Espero poder contar con tu opinión o consulta</h3>
+            <form>
+                <div class="form-group">
+                    <label for="FormControlInput1">Indica tu nombre y apellido</label>
+                    <input type="text" class="form-control" id="FormControlInput1" placeholder="Nombre y apellido">
+                  </div>
+                <div class="form-group">
+                  <label for="FormControlInput2">Indica tu dirección de mail</label>
+                  <input type="email" class="form-control" id="FormControlInput2" placeholder="name@example.com">
                 </div>
-                <div class="col">
-                    <div class="aboutMeImage wow animate__animated animate__fadeInLeft" data-wow-delay="0.6s">
-
-                    </div>
+                <div class="form-group">
+                  <label for="FormControlTextarea">Por favor deja tu consulta.</label>
+                  <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
                 </div>
-            </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+              </form>            
         </div>
+
    
  
         <!-- Footer -->
@@ -168,30 +170,7 @@
             <!-- Copyright -->
 
         </footer>
-        <!--
-        <div class="footer">
-            <div class="mensajeDeContacto">
-                <div>
-                    Siempre es un gusto estar en <a href="contact-me.html">contacto</a>.
-                </div>
-            </div>
-            <div class="mailContacto"> artista@mail.com
-            </div>                   
-            <div class="socialMedia">
-                <div class="logoSocial">
-                    <a href="" alt="Facebook">
-                        <img src="assets/imagenes/logo-facebook-social.png"/>
-                    </a>
-                </div>
-                <div class="logoSocial">
-                    <a href="" alt=Twitter>
-                        <img src="assets/imagenes/logo-twitter.png"/>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-        -->
+       
         <script src="js/wow.js"></script>
         <script>
         new WOW().init();

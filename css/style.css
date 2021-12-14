@@ -74,3 +74,31 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.formularioContacto{
+    align-self: center;
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formularioContacto h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+.formularioContacto form{
+    width: 80%;
+}
+
+.formularioContacto form .form-group{
+ margin-top: 3vh;
+ margin-bottom: 3vh;
+ border-radius: 10px;
+}
