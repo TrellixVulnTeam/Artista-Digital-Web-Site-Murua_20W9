@@ -100,5 +100,57 @@ footer{
 .formularioContacto form .form-group{
  margin-top: 3vh;
  margin-bottom: 3vh;
- border-radius: 10px;
+ border-radius: 15px;
+}
+
+.formularioContacto form button{
+    background-color: #4a00e0;
+    border-color: #8e2de2;
+}
+
+.comissionsSection{
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.comissionsSection .seccionPorComision{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: auto;
+    min-height: 350px;
+    margin: 4vh;
+}
+
+.comissionsSection .seccionPorComision .imagenComision{
+    width: 350px;
+    height: auto;
+    margin: 10px;
+}
+.comissionsSection .seccionPorComision .imagenComision img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.comissionsSection .seccionPorComision .detalleComision{
+    
+    width: auto;
+    max-width: 800px;
+    height: 100%;
+    min-height: 350px;
+    margin: 10px;
+    
+}
+
+.comissionsSection .seccionPorComision .detalleComision p{
+    align-self: flex-end;
+    font-family: 'Roboto', sans-serif;
 }
