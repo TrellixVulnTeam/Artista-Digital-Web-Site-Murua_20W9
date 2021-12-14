@@ -50,3 +50,27 @@ p .lead{
 footer{
     background-image: linear-gradient(to right, #8e2de2, #4a00e0);;
 }
+
+.biogPic {
+    height: auto;
+    min-height: 40vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.biogPic p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.biogPic .aboutMeImage{
+    width: 100%;
+    height: auto;
+    min-width: 350px;
+    min-height: 350px;
+    background-image: url(../assets/images/blender.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
