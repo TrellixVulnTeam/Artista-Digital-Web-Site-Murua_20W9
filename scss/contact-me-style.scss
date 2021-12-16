@@ -1,0 +1,44 @@
+.formularioContacto{
+
+    align-self: center;
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    form{
+        width: 80%;
+        .form-group{
+            
+            margin-top: 1.5vh;
+            margin-bottom: 1.5vh;
+            border-radius: 15px;
+
+            label{
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.25rem;
+                font-weight: 400;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+       }    
+
+        button{
+            
+            background-color: #4a00e0;
+            border-color: #8e2de2;
+        
+    }
+   
+    }
+}

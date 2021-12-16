@@ -1,0 +1,45 @@
+.portfolioSection{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    .portfolioShow{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 350px;
+        height: auto;
+        min-height: 350px;
+        margin: 5vh;
+        border-style: solid;
+        border-color: $primaryColor;
+        border-radius: 20px;
+        
+        .tarjetaPortfolio{
+            width: 350px;
+            height: auto;
+            margin: 10px;
+            img{
+                width: 350px;
+                height: 350px;
+                object-fit: cover;
+            }
+        }
+        .detallePortfolio{
+    
+            width: auto;
+            max-width: 800px;
+            height: 100%;
+            min-height: 100px;
+            margin: 10px;
+            
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.comissionsSection{
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .seccionPorComision{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        height: auto;
+        min-height: 350px;
+        margin: 4vh;
+
+        .imagenComision{
+
+            width: 350px;
+            height: auto;
+            margin: 10px;
+
+            img{
+                width: 350px;
+                height: 350px;
+                object-fit: cover;
+            }
+
+        }
+        .detalleComision{
+    
+            width: auto;
+            max-width: 800px;
+            height: 100%;
+            min-height: 350px;
+            margin: 10px;
+            
+            p{
+                align-self: flex-end;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+        
+    }
+}
