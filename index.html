@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--<link rel="stylesheet" href="css/estilo.css">-->
@@ -22,7 +22,7 @@
         <!-- Header -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white container-fluid d-flex justify-content-between">
             <!-- Logo y redirección a index -->
-            <a class="navbar-brand" href="index.html">JNM Elizondo</a>
+            <div class="navbar-brand" href="index.html"><a href="index.html">JNM Elizondo</a></div>
             <!-- NavBar -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,7 +53,7 @@
         <div id="jumbotron-principal" class = "jumbotron jumbotron-fluid d-flex flex-column justify-content-center align-items-center">
             <div class="container d-flex flex-column justify-content-center align-items-center">
                 <h1 class="display-4 my-4 wow animate__animated animate__fadeIn" data-wow-delay="0.6s">Modelador 3D</h1>
-                <p class="lead my-4 wow animate__animated animate__fadeIn"  data-wow-delay="1.2s">Mi nombre es Nehuen Manque, modelador 3D, artista visual y diseñador de personajes. Un gusto que me visites</p>
+                <p class="lead my-4 wow animate__animated animate__fadeIn"  data-wow-delay="1.2s">Mi nombre es Nehuen Manque, modelador 3D, artista visual y diseñador de personajes. Un gusto que me visites.</p>
             </div>
         </div>
 
@@ -62,10 +62,10 @@
         <div class="aboutMeSection d-flex flex-column justify-content-center align-items-center">
             <div class = "container-fluid">
                 <div class="container d-flex flex-column justify-content-around align-items-center">
-                    <div class="mensajePrincipal h3">
-                        Acarreo una pasión por crear piezas únicas a partir de diseños conceptuales.                    
-                    </div>
-                    <a href="about-me.html" class="h3">Conoce más de mí.</a>
+                    <h3>
+                        Acarreo una gran pasión por crear piezas únicas a partir de diseños conceptuales.                    
+                    </h3>
+                    <h3><a href="about-me.html">Conoce más de mí.</a></h3>
                 </div>
             </div>
         </div>
@@ -73,8 +73,9 @@
         <!-- Sección de Portfolio-->
 
         <div class="album py-5 bg-light">
-            <div class="container">
-    
+            
+          <div class="container">
+            <h3>Conoce algunas de las piezas de mi trabajo.</h3>
               <div class="row">
                 <div class="col-md-4">
                   <div class="card mb-4 shadow-sm wow animate__animated animate__fadeIn" data-wow-delay="0.5s">
@@ -127,36 +128,27 @@
     
         
         <!-- Footer -->
-        <footer class="text-center text-lg-start bg-light text-dark">
+        <footer class="  text-center text-lg-start text-dark">
             <!-- Section: Social media -->
-            <section class="d-flex justify-content-center justify-content-lg-between align-items-center p-4 border-bottom p-4 border-top">
+            <section class=" socialMedia d-flex justify-content-center justify-content-lg-between align-items-center p-4 p-4">
               <!-- Left -->
               <div class="me-5 d-none d-lg-block">
-                <span>Get connected with us on social networks:</span>
+                <span>Visita mis redes sociales:</span>
               </div>
               <!-- Left -->
           
               <!-- Right -->
               <div>
-                <a href="" class="me-4 text-reset">
-                  <i class="fab fa-facebook-f"></i>
+                <a href="#" class="me-4 text-reset">
+                  <i class="fa fa-facebook"></i>
                 </a>
-                <a href="" class="me-4 text-reset">
-                  <i class="fab fa-twitter"></i>
+                <a href="#" class="me-4 text-reset">
+                  <i class="fa fa-twitter"></i>
                 </a>
-                <a href="" class="me-4 text-reset">
-                  <i class="fab fa-google"></i>
+                <a href="#" class="me-4 text-reset">
+                  <i class="fa fa-instagram"></i>
                 </a>
-                <a href="" class="me-4 text-reset">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                  <i class="fab fa-github"></i>
-                </a>
-              </div>
+                </div>
               <!-- Right -->
             </section>
             <!-- Section: Social media -->
@@ -226,35 +218,11 @@
             <!-- Copyright -->
 
         </footer>
-        <!--
-        <div class="footer">
-            <div class="mensajeDeContacto">
-                <div>
-                    Siempre es un gusto estar en <a href="contact-me.html">contacto</a>.
-                </div>
-            </div>
-            <div class="mailContacto"> artista@mail.com
-            </div>                   
-            <div class="socialMedia">
-                <div class="logoSocial">
-                    <a href="" alt="Facebook">
-                        <img src="assets/imagenes/logo-facebook-social.png"/>
-                    </a>
-                </div>
-                <div class="logoSocial">
-                    <a href="" alt=Twitter>
-                        <img src="assets/imagenes/logo-twitter.png"/>
-                    </a>
-                </div>
 
-            </div>
-        </div>
-        -->
         <script src="js/wow.js"></script>
         <script>
         new WOW().init();
         </script>
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     </body>
 </html>
