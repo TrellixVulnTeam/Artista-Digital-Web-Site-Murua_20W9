@@ -1,0 +1,77 @@
+
+#jumbotron-principal{
+    .container{
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            color: $fontDarkGrey;
+            
+        }
+    }
+    height: 95vh;
+    
+
+}
+
+/*Section about me*/
+
+.aboutMeSection{
+    .container-fluid{
+        .container{
+            h3{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                color: $fontLightBlack;
+                a{
+                                    
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 600;
+                        color: $fontDarkGrey;
+                        transition: .5s ease-in-out;                       
+                    }
+                }
+                a:hover{
+                    color: $secondaryColor;
+                }
+                
+            }
+        }
+    background-image: $mainBackgrounColor;
+    height: 60vh;
+    min-height: 200px;
+    }
+    
+.album{
+    .container{
+        h3{
+            align-self: center;
+            text-align: center;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+        }
+        .row{
+            .col-md-4{
+                .card{
+                    .card-img-top{
+                        object-fit: fill;
+                        border-radius: $borderRadiusPrincipal;
+                    }
+                    .card-text{
+                        p{
+                            font-family: 'Roboto', sans-serif;
+
+                        }
+                    }
+                    padding: 2px;
+                    border: 1px solid;
+                    border-radius: $borderRadiusPrincipal;
+                }
+            }
+        }
+    }
+}
