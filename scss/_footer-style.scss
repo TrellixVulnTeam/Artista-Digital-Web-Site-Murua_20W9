@@ -11,6 +11,20 @@ footer{
             }
             }
         }
+        .socialMedia__icons{
+            a{
+                text-decoration: none;
+
+                .fa{
+                    @each $k, $v in $redes{
+                        .fa-#{$k}{
+                            background-color: $v;
+                        }
+                    }
+                    
+                }
+            }
+        }
     .newsLetterSection{
         padding-top: 5vh;
     }
