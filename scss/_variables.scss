@@ -10,7 +10,13 @@ $redes: (
         twitter: #55acee,
         facebook:  #3a5795,
         instagram: #C25E30
-); 
+);
+
+$estilos-iconos: (
+    width: 15px,
+    height: 15px,
+    border-radio: 5px
+);
 
 $map: (
     key1: $primaryColor, 

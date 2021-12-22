@@ -14,15 +14,16 @@ footer{
         .socialMedia__icons{
             a{
                 text-decoration: none;
-
-                .fa{
-                    @each $k, $v in $redes{
+                @each $k, $v in $redes{
                         .fa-#{$k}{
                             background-color: $v;
+                            width: map-get($estilo-iconos, width);
+                            height: map-get($estilo-iconos, height);
+                            border-radius: map-get($estilo-iconos, border-radio);
                         }
                     }
                     
-                }
+                
             }
         }
     .newsLetterSection{

@@ -74,11 +74,11 @@ footer {
       color: #171717; }
   footer .socialMedia__icons a {
     text-decoration: none; }
-    footer .socialMedia__icons a .fa .fa-twitter {
+    footer .socialMedia__icons a .fa-twitter {
       background-color: #55acee; }
-    footer .socialMedia__icons a .fa .fa-facebook {
+    footer .socialMedia__icons a .fa-facebook {
       background-color: #3a5795; }
-    footer .socialMedia__icons a .fa .fa-instagram {
+    footer .socialMedia__icons a .fa-instagram {
       background-color: #C25E30; }
   footer .newsLetterSection {
     padding-top: 5vh; }
