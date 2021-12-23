@@ -71,6 +71,7 @@
                     border: 1px solid;
                     border-radius: $borderRadiusPrincipal;
                 }
+                @include hover-shadow(card, $primaryColor);
             }
         }
     }
