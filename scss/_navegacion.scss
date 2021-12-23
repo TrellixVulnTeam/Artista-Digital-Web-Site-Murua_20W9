@@ -18,9 +18,19 @@ nav{
         }
         
     }
-    .navbarNav{
-        @extend .navTransition;
-        
+    #navbarNav{
+        ul{
+            @extend .navTransition;        
+            .nav-link{
+                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+            }
+            .nav-link:hover{
+                color: white;
+            }
+        }
+        ul:hover{
+            background-color: $primaryColor;
+        }
     }
 }
 
