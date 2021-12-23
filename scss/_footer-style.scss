@@ -22,7 +22,7 @@ footer{
                             min-width: map-get($estilos-iconos, width-icono);
                             min-height: map-get($estilos-iconos, height-icono);
                             border-radius: map-get($estilos-iconos, border-radius-icono);
-
+                            color: map-get($estilos-iconos, color-icono);
                         }
                     }
             

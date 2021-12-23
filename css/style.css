@@ -80,17 +80,20 @@ footer {
       background-color: #55acee;
       min-width: 20px;
       min-height: 20px;
-      border-radius: 3px; }
+      border-radius: 3px;
+      color: white; }
     footer .socialMedia__icons a .fa-facebook {
       background-color: #3a5795;
       min-width: 20px;
       min-height: 20px;
-      border-radius: 3px; }
+      border-radius: 3px;
+      color: white; }
     footer .socialMedia__icons a .fa-instagram {
       background-color: #E1306C;
       min-width: 20px;
       min-height: 20px;
-      border-radius: 3px; }
+      border-radius: 3px;
+      color: white; }
   footer .newsLetterSection {
     padding-top: 5vh; }
 
