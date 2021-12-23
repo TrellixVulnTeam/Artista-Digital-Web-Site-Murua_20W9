@@ -78,14 +78,14 @@
                     border: 1px solid;
                     border-radius: $borderRadiusPrincipal;
                 }
-                .card:hover{
-                    animation-name: hover-shadow-animation;
-                    animation-duration: 500ms;
-                    animation-fill-mode: forwards;
-                    @keyframes hover-shadow-animation{
-                        100% {
-                            @include box-shadow(0, 0, 10px, $primaryColor);
-                        }
+            }
+            .col-md-4:hover{
+                animation-name: hover-shadow-animation;
+                animation-duration: 500ms;
+                animation-fill-mode: forwards;
+                @keyframes hover-shadow-animation{
+                    100% {
+                        @include box-shadow(0, 0, 15px, $primaryColor);
                     }
                 }
             }

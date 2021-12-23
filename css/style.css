@@ -77,17 +77,17 @@ nav #navbarNav ul:hover {
   .album .container .row .col-md-4 .card .card-text p {
     font-family: 'Roboto', sans-serif; }
 
-.album .container .row .col-md-4 .card:hover {
+.album .container .row .col-md-4:hover {
   animation-name: hover-shadow-animation;
   animation-duration: 500ms;
   animation-fill-mode: forwards; }
 
 @keyframes hover-shadow-animation {
   100% {
-    -webkit-box-shadow: 0 0 10px #8e2de2;
-    -moz-box-shadow: 0 0 10px #8e2de2;
-    -ms-box-shadow: 0 0 10px #8e2de2;
-    box-shadow: 0 0 10px #8e2de2; } }
+    -webkit-box-shadow: 0 0 15px #8e2de2;
+    -moz-box-shadow: 0 0 15px #8e2de2;
+    -ms-box-shadow: 0 0 15px #8e2de2;
+    box-shadow: 0 0 15px #8e2de2; } }
 
 footer {
   background-image: linear-gradient(45deg, #8e2de2, #4a00e0);
