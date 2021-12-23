@@ -1,4 +1,11 @@
 
+@mixin box-shadow($x, $y, $blur, $color){ 
+    -webkit-box-shadow: $x $y $blur $color;
+    -moz-box-shadow: $x $y $blur $color;
+    -ms-box-shadow: $x $y $blur $color;
+    box-shadow: $x $y $blur $color;
+  }
+
 #jumbotron-principal{
     .container{
         h1{
@@ -71,7 +78,16 @@
                     border: 1px solid;
                     border-radius: $borderRadiusPrincipal;
                 }
-                @include hover-shadow(card, $primaryColor);
+                .card:hover{
+                    animation-name: hover-shadow-animation;
+                    animation-duration: 500ms;
+                    animation-fill-mode: forwards;
+                    @keyframes hover-shadow-animation{
+                        100% {
+                            @include box-shadow(0, 0, 10px, $primaryColor);
+                        }
+                    }
+                }
             }
         }
     }
