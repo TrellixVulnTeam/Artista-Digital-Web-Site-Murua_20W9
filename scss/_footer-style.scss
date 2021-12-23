@@ -17,12 +17,12 @@ footer{
                 @each $k, $v in $redes{
                         .fa-#{$k}{
                             background-color: $v;
-                            width: map-get($estilo-iconos, width);
-                            height: map-get($estilo-iconos, height);
-                            border-radius: map-get($estilo-iconos, border-radio);
+
                         }
                     }
-                    
+            width: map-get($estilo-iconos, width);
+            height: map-get($estilo-iconos, height);
+            border-radius: map-get($estilo-iconos, border-radio);        
                 
             }
         }
