@@ -13,16 +13,19 @@ footer{
         }
         .socialMedia__icons{
             a{
+                width: auto;
+                height: auto;
                 text-decoration: none;
                 @each $k, $v in $redes{
                         .fa-#{$k}{
                             background-color: $v;
+                            min-width: map-get($estilos-iconos, width-icono);
+                            min-height: map-get($estilos-iconos, height-icono);
+                            border-radius: map-get($estilos-iconos, border-radius-icono);
 
                         }
                     }
-            width: map-get($estilo-iconos, width);
-            height: map-get($estilo-iconos, height);
-            border-radius: map-get($estilo-iconos, border-radio);        
+            
                 
             }
         }

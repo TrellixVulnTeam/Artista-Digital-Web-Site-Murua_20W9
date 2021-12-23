@@ -73,13 +73,24 @@ footer {
       font-weight: 500;
       color: #171717; }
   footer .socialMedia__icons a {
+    width: auto;
+    height: auto;
     text-decoration: none; }
     footer .socialMedia__icons a .fa-twitter {
-      background-color: #55acee; }
+      background-color: #55acee;
+      min-width: 20px;
+      min-height: 20px;
+      border-radius: 3px; }
     footer .socialMedia__icons a .fa-facebook {
-      background-color: #3a5795; }
+      background-color: #3a5795;
+      min-width: 20px;
+      min-height: 20px;
+      border-radius: 3px; }
     footer .socialMedia__icons a .fa-instagram {
-      background-color: #C25E30; }
+      background-color: #E1306C;
+      min-width: 20px;
+      min-height: 20px;
+      border-radius: 3px; }
   footer .newsLetterSection {
     padding-top: 5vh; }
 
