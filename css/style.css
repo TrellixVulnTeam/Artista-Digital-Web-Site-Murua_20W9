@@ -222,7 +222,11 @@ footer {
   .formularioContacto h3 {
     font-family: 'Roboto', sans-serif; }
   .formularioContacto form {
-    width: 80%; }
+    width: 80%;
+    min-width: 260px;
+    background-color: #8e2de2;
+    padding: 25px;
+    border-radius: 15px; }
     .formularioContacto form .form-group {
       margin-top: 1.5vh;
       margin-bottom: 1.5vh;

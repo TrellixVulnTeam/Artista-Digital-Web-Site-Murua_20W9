@@ -17,11 +17,16 @@
 
     form{
         width: 80%;
+        min-width: 260px;
+        background-color: $primaryColor;
+        padding: 25px;
+        border-radius: 15px;
         .form-group{
             
             margin-top: 1.5vh;
             margin-bottom: 1.5vh;
             border-radius: 15px;
+            
 
             label{
                 font-family: 'Roboto', sans-serif;
