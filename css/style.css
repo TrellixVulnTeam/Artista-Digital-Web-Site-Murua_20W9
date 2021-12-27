@@ -219,8 +219,14 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  .formularioContacto h3 {
-    font-family: 'Roboto', sans-serif; }
+  .formularioContacto .formText {
+    width: 75vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    min-width: 240px; }
+    .formularioContacto .formText h3 {
+      font-family: 'Roboto', sans-serif; }
   .formularioContacto form {
     width: 80%;
     min-width: 260px;
