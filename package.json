@@ -1,7 +1,7 @@
 {
   "name": "Proyecto-Final-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio web de diseñador 3D.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/gonzaloPukiMurua/Artista-Digital-Web-Site-Murua.git"
   },
   "keywords": [
-    "Web Site Artista"
+    "Diseñador 3D", "Blender", "Personajes", "Impresion 3D"
   ],
   "author": "Gonzalo ENzo Murua",
   "license": "ISC",
