@@ -195,7 +195,6 @@ footer {
       margin: 10px; }
 
 .comissionsSection {
-  display: flex;
   width: 100%;
   height: auto;
   min-height: 600px;
@@ -203,7 +202,6 @@ footer {
   justify-content: space-evenly;
   align-items: center; }
   .comissionsSection .seccionPorComision {
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -212,7 +210,7 @@ footer {
     min-height: 350px;
     margin: 4vh; }
     .comissionsSection .seccionPorComision .imagenComision {
-      width: 350px;
+      width: 80vw;
       height: auto;
       margin: 10px; }
       .comissionsSection .seccionPorComision .imagenComision img {

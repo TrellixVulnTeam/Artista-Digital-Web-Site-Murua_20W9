@@ -293,9 +293,6 @@ footer .newsLetterSection {
 }
 
 .comissionsSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 100%;
   height: auto;
   min-height: 600px;
@@ -312,9 +309,6 @@ footer .newsLetterSection {
 }
 
 .comissionsSection .seccionPorComision {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -331,7 +325,7 @@ footer .newsLetterSection {
 }
 
 .comissionsSection .seccionPorComision .imagenComision {
-  width: 350px;
+  width: 80vw;
   height: auto;
   margin: 10px;
 }
